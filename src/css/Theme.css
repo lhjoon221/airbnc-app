@@ -1,0 +1,134 @@
+.sec-theme h2 {
+    font-family: 'Cafe24Gowoonbam';
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.sec-theme .title-box {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.input-area {
+    text-align: center;
+}
+
+.input-search {
+    max-width: 50%;
+    width: 50%;
+    height: 44px;
+    border: 1px solid #cdcdcd;
+    border-radius: 20px;
+    padding-left: 10px;
+    margin-bottom: 40px;
+}
+
+.input-search:focus {
+    outline: 1px solid #37758d;
+}
+
+.filter-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: #f4f4f4;
+    border: 1px solid #f7f7f7;
+}
+
+.filter-area .filter {
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.filter-area select {
+    height: 36px;
+    border: 1px solid #cdcd;
+    width: 80px;
+}
+
+s .category-box {
+    margin: 20px 0;
+}
+
+.category-box button {
+    margin-right: 10px;
+    padding: 8px 14px;
+}
+
+.category-box .active {
+    background: black;
+    color: white;
+}
+
+.card-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.badge {
+    font-size: 12px;
+    color: red;
+}
+
+.keywords span {
+    margin-right: 6px;
+    font-size: 12px;
+}
+
+.tab-area {
+    margin-top: 50px;
+}
+/* modal */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    max-width: 640px;
+    width: 90%;
+    position: relative;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.modal-content img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
