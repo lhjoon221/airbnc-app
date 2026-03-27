@@ -1,0 +1,163 @@
+[
+  {
+    "id": 1,
+    "title": "바다 근처 숙소",
+    "text": "오션뷰와 해변 감성을 즐길 수 있는 숙소 모음",
+    "keyword": ["오션뷰", "해변산책", "파도소리"],
+    "category": "자연",
+    "image": "/images/theme01.png"
+  },
+  {
+    "id": 2,
+    "title": "한옥 감성 숙소",
+    "text": "고즈넉한 분위기에서 특별한 하루를 보내는 공간",
+    "keyword": ["고즈넉함", "서까래", "전통미"],
+    "category": "감성숙소",
+    "image": "/images/theme02.png"
+  },
+  {
+    "id": 3,
+    "title": "숲속 힐링 숙소",
+    "text": "자연 속에서 쉬어가기 좋은 조용한 공간",
+    "keyword": ["숲캉스", "피톤치드", "마운틴뷰"],
+    "category": "자연",
+    "image": "/images/theme03.jpg"
+  },
+  {
+    "id": 4,
+    "title": "도심 모던 숙소",
+    "text": "깔끔하고 세련된 분위기의 시티 스테이",
+    "keyword": ["시티뷰", "모던인테리어", "접근성"],
+    "category": "감성숙소",
+    "image": "/images/theme04.jpg"
+  },
+  {
+    "id": 5,
+    "title": "반려견 동반 스테이",
+    "text": "소중한 우리 아이와 함께 떠나는 행복한 여행",
+    "keyword": ["애견동반", "강아지운동장", "펫프렌들리"],
+    "category": "맞춤숙소",
+    "image": "/images/theme05.jpg"
+  },
+  {
+    "id": 6,
+    "title": "럭셔리 풀빌라",
+    "text": "프라이빗한 풀장에서 즐기는 우리만의 온전한 휴식",
+    "keyword": ["개인풀장", "프라이빗", "호캉스"],
+    "category": "로맨틱",
+    "image": "/images/theme06.jpg"
+  },
+  {
+    "id": 7,
+    "title": "글램핑 & 캠핑",
+    "text": "밤하늘의 별과 모닥불, 낭만 가득한 야외 스테이",
+    "keyword": ["불멍", "캠핑감성", "별구경"],
+    "category": "자연",
+    "image": "/images/theme07.jpg"
+  },
+  {
+    "id": 8,
+    "title": "제주 돌담 집",
+    "text": "제주스러움이 물씬 풍기는 아늑한 시골 마을 숙소",
+    "keyword": ["제주감성", "구옥개조", "올레길"],
+    "category": "자연",
+    "image": "/images/theme08.jpg"
+  },
+  {
+    "id": 9,
+    "title": "북스테이(Bookstay)",
+    "text": "책 향기 가득한 곳에서 즐기는 느린 하루의 기록",
+    "keyword": ["독서", "정숙", "사색"],
+    "category": "맞춤숙소",
+    "image": "/images/theme09.jpg"
+  },
+  {
+    "id": 10,
+    "title": "워크스테이션",
+    "text": "일과 휴식의 완벽한 밸런스, 워케이션 맞춤 공간",
+    "keyword": ["워케이션", "빠른Wi-Fi", "데스크셋업"],
+    "category": "맞춤숙소",
+    "image": "/images/theme10.jpg"
+  },
+  {
+    "id": 11,
+    "title": "노천탕 & 스파",
+    "text": "따뜻한 온수에 몸을 녹이는 힐링 테라피 타임",
+    "keyword": ["힐링스파", "겨울여행", "피로회복"],
+    "category": "로맨틱",
+    "image": "/images/theme11.jpg"
+  },
+  {
+    "id": 12,
+    "title": "미니멀 스테이",
+    "text": "단순함의 미학, 비움으로써 채워지는 마음의 여백",
+    "keyword": ["단순함", "명상", "깔끔함"],
+    "category": "감성숙소",
+    "image": "/images/theme12.jpg"
+  },
+  {
+    "id": 13,
+    "title": "빈티지 아지트",
+    "text": "세월의 흔적이 묻어나는 개성 있는 레트로 감성 숙소",
+    "keyword": ["레트로", "아날로그", "LP플레이어"],
+    "category": "감성숙소",
+    "image": "/images/theme13.jpg"
+  },
+  {
+    "id": 14,
+    "title": "패밀리 하우스",
+    "text": "온 가족이 함께 웃고 즐기는 넉넉하고 편안한 공간",
+    "keyword": ["가족여행", "대가족숙소", "키즈존"],
+    "category": "맞춤숙소",
+    "image": "/images/theme14.jpg"
+  },
+  {
+    "id": 15,
+    "title": "루프탑 전망 숙소",
+    "text": "도시의 야경이 한눈에 들어오는 로맨틱한 루프탑",
+    "keyword": ["야경맛집", "로맨틱", "인생샷"],
+    "category": "로맨틱",
+    "image": "/images/theme15.jpg"
+  },
+  {
+    "id": 16,
+    "title": "커플 전용 은신처",
+    "text": "둘만의 소중한 기념일을 위한 로맨틱 스테이",
+    "keyword": ["기념일", "와인한잔", "둘만의공간"],
+    "category": "로맨틱",
+    "image": "/images/theme16.jpg"
+  },
+  {
+    "id": 17,
+    "title": "아트 갤러리 숙소",
+    "text": "예술 작품과 함께 머무는 특별한 예술적 영감의 공간",
+    "keyword": ["전시", "예술가", "영감"],
+    "category": "감성숙소",
+    "image": "/images/theme17.jpg"
+  },
+  {
+    "id": 18,
+    "title": "오가닉 팜스테이",
+    "text": "직접 가꾼 채소와 함께하는 건강한 전원 생활 체험",
+    "keyword": ["촌캉스", "텃밭체험", "친환경"],
+    "category": "자연",
+    "image": "/images/theme18.jpg"
+  },
+  {
+    "id": 19,
+    "title": "계곡 앞 물멍 숙소",
+    "text": "시원한 물소리를 들으며 즐기는 여름날의 휴식",
+    "keyword": ["물멍", "시원한여름", "백숙감성"],
+    "category": "자연",
+    "image": "/images/theme19.jpg"
+  },
+  {
+    "id": 20,
+    "title": "나홀로 여행(Solo)",
+    "text": "혼자여도 충분히 완벽한, 안전하고 아늑한 혼행 숙소",
+    "keyword": ["혼자여행", "안전", "나만의시간"],
+    "category": "맞춤숙소",
+    "image": "/images/theme20.jpg"
+  }
+]
+
