@@ -1,47 +1,35 @@
+
+
 .sec-room-detail {
     width: 100%;
-    overflow-x: hidden;
-    padding: 20px 0;
-}
-.detail-image {
-    width: 90%;
-    max-width: 600px;    
-    margin: 0 auto 30px; 
-    display: block; 
+    max-width: 1100px;  /* 페이지 전체 너비 */
+    margin: 0 auto;
+    padding: 40px 20px;
 }
 
+.detail-image {
+    width: 100%;
+    height: 700px;      /* 👈 사진 높이를 여기서 결정합니다 */
+    margin-bottom: 30px;
+    border-radius: 16px;
+    overflow: hidden;   /* 사진이 삐져나가지 않게 */
+    background-color: #eee; /* 사진 로딩 전 배경색 */
+}
 
 .detail-image img {
-    width: 90%;         
-    height: auto;        
-    display: block;      
-}
-
-
-.detail-contents {
     width: 100%;
-    max-width: 700px;   
-    margin: 0 auto;      
-    padding: 20px;
+    height: 100%;
+    object-fit: cover;  /* 👈 사진이 찌그러지지 않고 꽉 차게 만듭니다 */
+    display: block;
 }
 
 .detail-contents h3 {
-    font-size: 24px;
-    margin-bottom: 10px;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 15px;
 }
-
 
 .util strong {
-    font-size: 20px;
-    color: #ff385c;      
-}
-
-
-.sevice-area span {
-    display: inline-block;
-    background: #f5f5f5;
-    padding: 5px 12px;
-    margin: 5px;
-    border-radius: 20px;
-    font-size: 14px;
+    font-size: 24px;
+    color: #ff385c; /* 에어비앤비 핑크색 */
 }

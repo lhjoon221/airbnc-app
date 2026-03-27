@@ -2,6 +2,8 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import rooms from '../data/rooms'
+import "../css/RoomDetailPage.css"; 
+import "../css/RoomPage.css";
 
 export default function RoomPage({ user, login, logout }) {
   const [inputId, setInputId] = useState('');
@@ -96,7 +98,7 @@ export default function RoomPage({ user, login, logout }) {
               rooms.map((room) => (
                 <div key={room.id} className='room-card'>
                   <figure className='room-img'>
-                    <img src={room.image} alt={room.title} />
+                    <img src={`${import.meta.env.BASE_URL}${room.image.replace("/", "")}`} />
                   </figure>
                   <div className="room-content">
                     <h4>{room.title}</h4>

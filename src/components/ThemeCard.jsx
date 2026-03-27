@@ -2,7 +2,7 @@ export default function ThemeCard({ item, onClick }) {
   return (
     <li className='card' onClick={onClick} style={{ cursor: 'pointer' }}>
       <figure>
-        <img src={item.image} alt={item.title} />
+        <img src={`${import.meta.env.BASE_URL}${item.image}`} alt={item.title} />
       </figure>
       <div className="card-content">
         <span className='badge'>{item.category}</span>
